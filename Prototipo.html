@@ -12,16 +12,17 @@
 </head>
 
 <body>
+    
     <header class="encabezado">
         <nav>
             <img id="mundo" src="https://us.123rf.com/450wm/yupiramos/yupiramos1808/yupiramos180801102/112380914-agentes-de-call-center-avatares-personajes-dise%C3%B1o-de-ilustraciones-vectoriales.jpg?ver=6" alt="" class="img-responsive"/>
             <div>
             <ul>
-                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Inicio" class="var">Inicio</a></li>
                 <li>
                     <a href="#">Trabaja con nosotros</a>
                     <ul>
-                        <li><a href="#"> Turno mañana</a></li>
+                        <li><a id ="datos"> Dejanos tus datos </a></li>
                         <li><a href="#"> Turno Tarde</a></li>
                         <li>
                             <a href="#"> Turno noche</a>
@@ -42,9 +43,7 @@
         </nav>        
 
     </header>
-</body>
 
-<body>
 <div class="fondo_inicio">
 <br>
 <h1>Call center</h1><br>
@@ -52,6 +51,7 @@
 
 <h2 id="Inicio">Inicio</h2><br>
 <br>
+<script src="prototipo.js"></script>
 <div class="contenedor_total">
     <div class="contenedor1">
         <h3 id="Visión">Visión</h3><br>
@@ -80,5 +80,30 @@
     mas seguro y puedan trabajar desde casa.</h3></p><br>
     <img src="https://carlapamela.com/wp-content/uploads/2020/06/Home-Office.jpg">
     
+<form action="ejemplo.php" method="get">
+  <p id="Nombre_form">Nombre: <input type="text" name="nombre" size="40"></p>
+  <p id="fec_form">Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+  <p id="sex_form">Sexo:
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+  </p>
+  <p id="button_form">
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+  </p>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 

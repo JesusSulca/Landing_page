@@ -96,6 +96,7 @@ h1 {
     padding-left: 100px;
     text-align: justify;
 }
+
 .contenedor2{
     padding-left: 160px;
     width: 50%;
@@ -103,8 +104,7 @@ h1 {
 
 #Inicio{
     text-align: center;
-    font-size: 60px;
-    color: #1d2a9e;
+    color: #252527;
 }
 
 #Visión{
