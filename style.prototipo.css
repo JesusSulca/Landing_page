@@ -1,14 +1,5 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
-    
-    
-}
-
 body{
-    background-color: #fdfcff;
-    
+    background-color: #fdfcff;   
 }
 
 
@@ -66,7 +57,7 @@ a:hover{
 }
 
 .encabezado nav ul li ul li ul{
-    top: 0;
+        
     left: 180px;
     position: absolute;
 }
@@ -119,12 +110,12 @@ h1 {
 
 .img_vis{
     width: 80%;
-    padding-left: 80px;
+    padding-left: 8 0px;
 }
 
 .img_mis{
-    width: 55%;
-    padding-left: 190px;
+    width: 60%;
+    padding-left: 210px;
     padding-top: 45px;
 }
 
